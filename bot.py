@@ -27,11 +27,9 @@ def rpa_guardar_archivo():
     time.sleep(10)
 
 def rpa_cerrar_y_guardar_word():
-    # Guardar documento (Ctrl + S)
-    pyautogui.hotkey('ctrl', 's')
-    time.sleep(2)  # Esperar a que aparezca el diálogo de guardar
     
-    # Cerrar Word (Alt + F4)
+    
+    # Cerrar y guardarWord (Alt + F4)
     pyautogui.hotkey('alt', 'f4')
     time.sleep(1)
     
